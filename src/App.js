@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import Hook from './Components/Counter';
 import './App.css';
-
+import Firebasedemo from './Components/FireBaseDemo';
+import UseRefDemo from './Components/UseRefDemo'
+import Billsplit from './Components/BillSplit'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Firebasedemo/>
     </div>
   );
 }

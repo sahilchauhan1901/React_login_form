@@ -1,0 +1,14 @@
+.btn{
+    background-color: white;
+    padding: 10px 12px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 4px;
+    border-radius: 12px;
+}
+.title{
+    font-size: 60px;
+}
+.container{
+    margin: 40px auto;
+}
